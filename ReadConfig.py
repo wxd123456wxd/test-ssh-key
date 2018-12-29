@@ -4,8 +4,8 @@ import os
 import ConfigParser
 import cx_Oracle
 
-proDir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-conf_path = proDir + r"\config\config.ini"
+#proDir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+#conf_path = proDir + r"\config\config.ini"
 
 conf = ConfigParser.ConfigParser()
 conf.read(conf_path)
